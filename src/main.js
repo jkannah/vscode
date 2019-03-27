@@ -8,7 +8,7 @@
 
 const perf = require('./vs/base/common/performance');
 const lp = require('./vs/base/node/languagePacks');
-
+const name = 'test_fork_on vscode';
 perf.mark('main:started');
 
 const fs = require('fs');
